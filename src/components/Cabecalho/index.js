@@ -6,7 +6,7 @@ import CabecalhoLink from "components/CabecalhoLink";
 
 function Cabecalho() {
     return (
-        <header className={styles.Cabecalho}>
+        <header className={styles.cabecalho}>
             <Link to="./">
                 <img src={logo} alt="Logo do cinetag"></img>
             </Link>
