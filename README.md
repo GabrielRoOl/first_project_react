@@ -30,3 +30,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - Procurar valores dentro de um array com o método some;
 - Remover itens de um array com o método splice e auxílio do indexOf;
 - Instalar e usar a extensão React Context DevTool.
+
+## Evoluindo as rotas
+- Dinamicidade da rota /:id, pegando o id a partir do BD
