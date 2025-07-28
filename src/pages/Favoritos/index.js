@@ -36,7 +36,7 @@ function Favoritos() {
                 </h1>
             </Titulo>
             <section className={styles.container}>
-                {favorito.map((fav) => {    // usando .map para 
+                {favorito.map((fav) => {    // usando .map para listar o array na página /favoritos
                     return <Card {...fav} key={fav.id}/>
                 })}
             </section>
