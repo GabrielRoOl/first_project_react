@@ -3,10 +3,20 @@ import Rodape from "components/Rodape";
 import Banner from "components/Banner"
 import Titulo from "components/Titulo";
 import Card from "components/Card";
-import videos from "json/db.json";
 import styles from './Inicio.module.css'
+import { useEffect, useState } from "react";
 
 function Inicio() {
+    const [videos, setVideos] = useState([]);
+
+    useEffect(() => {
+        fetch('https://my-json-server.typicode.com/GabrielRoOl/cinetag-api/videos')
+        .then(resposta => resposta.json())
+        .then(dados => {
+            setVideos(dados)
+        })
+    }, [])
+
     return (
         <>
             <Cabecalho />
