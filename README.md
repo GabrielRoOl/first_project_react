@@ -32,4 +32,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - Instalar e usar a extensão React Context DevTool.
 
 ## Evoluindo as rotas
+
 - Dinamicidade da rota /:id, pegando o id a partir do BD
+- Implementa um novo componente para url invalido!
