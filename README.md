@@ -36,3 +36,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - Dinamicidade da rota /:id, pegando o id a partir do BD
 - Implementa um novo componente para url invalido!
 - Adiciona Rotas aninhadas
+
+## My Json Server
+
+- Usando o useEffect para consumir api do my-json-server
+- Fetch com parâmetros
